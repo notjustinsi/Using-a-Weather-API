@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #001f3f; /* Set the background color for the entire body */
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #001f3f;
+    padding: 10px;
+    color: white; 
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    padding: 5px;
+    width: 70%;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#currentWeather,
+#forecast {
+    margin-top: 20px;
+}
+
+#forecast {
+    margin-top: 10px;
+}
+
+#searchHistory {
+    margin-top: 20px;
+}
